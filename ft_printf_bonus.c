@@ -1,19 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*   ft_printf_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: szapata- <szapata-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 00:07:44 by szapata-          #+#    #+#             */
-/*   Updated: 2024/01/24 01:16:42 by szapata-         ###   ########.fr       */
+/*   Updated: 2024/01/23 17:15:11 by szapata-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "ft_printf_bonus.h"
 #include "libft/libft.h"
-#include <stdio.h>
-#include <limits.h>
 
 int	ft_printf(char const *format, ...)
 {
@@ -38,10 +36,3 @@ int	ft_printf(char const *format, ...)
 	}
 	return (res);
 }
-
-// int	main(void)
-// {
-// 	printf("\n%d\n", printf("%0#5x", 0));
-// 	printf("\n%d", ft_printf("%0#5x", 0));
-// 	return (0);
-// }
